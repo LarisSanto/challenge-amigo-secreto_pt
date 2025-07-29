@@ -1,4 +1,3 @@
-## Amigo Secreto 
 ## Curso Praticando Logica de programação: Challenge amigo secreto / Alura + ONE
 
 
