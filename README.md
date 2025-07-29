@@ -22,11 +22,6 @@ O propósito deste desafio é praticar os conceitos adquiridos sobre lógica de 
 Por isso, o código HTML e CSS formam-se disponibilizados pelo curso, permitindo que o foco esteja totalmente nos aspectos fundamentais da lógica de programação, como variáveis, condicionais, funções e listas, entre outros.
 
 
-
-
-
-
-
 ---
 
 ## Estapas do Jogo:
