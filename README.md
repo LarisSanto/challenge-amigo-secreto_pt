@@ -1,4 +1,5 @@
-Amigo Secreto.
+## Amigo Secreto
+
 
 Neste desafio, desenvolvi uma aplicação que permite aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
@@ -26,24 +27,28 @@ Por isso, o código HTML e CSS formam-se disponibilizados pelo curso, permitindo
 
 
 
---
+---
 
-** Estapas do Jogo:
+## Estapas do Jogo:
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/569507d5-b133-449a-85c6-6b66838b47d4" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5d0acf92-dd96-4815-bded-8190a98f875f" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e07fa2ec-7c13-407b-b2cd-fa77c61819e1" />
 
---
 
+---
 
+## Tela VS code
 
 
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7d761cd7-5d90-48eb-8e81-8ce716650f8d" />
 
+---
 
 
+
+<p align="center">Feito com 💛 por Larissa dos Santos Silva</p>
 
 
 
