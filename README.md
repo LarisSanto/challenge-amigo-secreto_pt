@@ -22,7 +22,7 @@ O propósito deste desafio é praticar os conceitos adquiridos sobre lógica de 
 Por isso, o código HTML e CSS formam-se disponibilizados pelo curso, permitindo que o foco esteja totalmente nos aspectos fundamentais da lógica de programação, como variáveis, condicionais, funções e listas, entre outros.
 
 
----
+
 
 ## Estapas do Jogo:
 
@@ -31,7 +31,6 @@ Por isso, o código HTML e CSS formam-se disponibilizados pelo curso, permitindo
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e07fa2ec-7c13-407b-b2cd-fa77c61819e1" />
 
 
----
 
 ## Tela VS code
 
