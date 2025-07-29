@@ -19,3 +19,8 @@ Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será 
 O propósito deste desafio é praticar os conceitos adquiridos sobre lógica de programação.
 
 Por isso, o código HTML e CSS formam-se disponibilizados pelo curso, permitindo que o foco esteja totalmente nos aspectos fundamentais da lógica de programação, como variáveis, condicionais, funções e listas, entre outros.
+
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/74236732-c75b-4926-a5e9-30609c75e570" />
+
+
