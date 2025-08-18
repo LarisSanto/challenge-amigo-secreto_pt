@@ -36,9 +36,7 @@ Por isso, o código HTML e CSS formam-se disponibilizados pelo curso, permitindo
 
 ### 🔗 Link do Jogo:
 
-- file:///C:/Users/Larissa/Documents/GitHub/challenge-amigo-secreto_pt/index.html
-
-
+- 
 
 ### 👩🏽 Sobre Mim
 
