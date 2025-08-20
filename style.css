@@ -1,162 +1,172 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+  --color-primary: #4B69FD;      /* azul do topo */
+  --color-secondary: #FFF9EB;    /* creme da área de inputs */
+  --color-tertiary: #C4C4C4;     /* cinza do botão Adicionar */
+  --color-button: #fe652b;        /* laranja do Sortear */
+  --color-button-hover: #e55720;
+  --color-text: #444444;
+  --color-white: #FFFFFF;
 }
 
-/* Estilos gerais */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    background-color: var(--color-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 /* Banner */
-.header-banner {
-    flex: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0 0;
+.banner {
+  background-color: var(--color-primary);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Seção de entrada */
-.input-section {
-    flex: 60%;
-    background-color: var(--color-secondary);
-    border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
+.banner-content {
+  display: flex;
+  flex-direction: row; /* ALTERADO: Alinha os itens lado a lado */
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  max-width: 1000px;
+  width: 100%;
 }
 
-/* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
+  font-size: 48px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--color-white);
+  margin-right: 40px; /* ALTERADO: Adiciona espaço à direita do título */
+  margin-bottom: 0; /* ADICIONADO: Remove a margem inferior */
+}
+
+.banner-image {
+  max-width: 700px;
+  height: auto;
+}
+
+/* Área de entrada */
+.input-section {
+  flex: 60%;
+  background-color: var(--color-secondary);
+  border-radius: 64px 64px 0 0;
+  padding: 32px 20px 40px;
+  text-align: center;
+  background-image: url("assets/papel-presente.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .section-title {
-    font-family: "Inter", serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin: 10px 0;
-    text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 20px;
 }
 
-/* Contêineres de entrada e botão */
+/* Input + Botão Adicionar */
 .input-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 600px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  width: 90%;
 }
 
-.input-name {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #000;
-    border-radius: 25px 0 0 25px;
-    font-size: 16px;
-}
-
-.button-container {
-    width: 300px;
-    justify-content: center;
-}
-
-/* Estilos de entrada de texto */
 .input-title {
-    flex: 1;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 2px solid #333;
-    border-right: none;
-    border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Estilos de botão */
-button {
-    padding: 15px 30px;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    border: 2px solid #000;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-right: none;
+  border-radius: 25px 0 0 25px;
+  font-family: "Merriweather", serif;
+  outline: none;
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
-    border-radius: 0 25px 25px 0;
+  background-color: var(--color-tertiary);
+  color: var(--color-text);
+  padding: 12px 24px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-left: none;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+  background-color: #a1a1a1;
 }
 
-/* Listas */
-ul {
-    list-style-type: none;
-    color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    margin: 20px 0;
+/* Lista de amigos */
+#listaAmigos {
+  list-style: none;
+  padding: 0;
+  margin: 10px auto 24px;
+  color: var(--color-text);
+  font-size: 18px;
+  max-width: 600px;
+  width: 90%;
+  text-align: left;
 }
 
-.result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
+#listaAmigos li {
+  padding: 6px 10px;
+  border-bottom: 1px dashed #bbb;
 }
 
-/* Botão de sortear título */
+/* Botão sortear */
 .button-draw {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px 40px;
-    color: var(--color-white);
-    background-color: var(--color-button);
-    font-size: 16px;
-}
-
-.button-draw img {
-    margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  width: 250px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--color-button);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 20px auto 0;
+  transition: background 0.3s ease;
 }
 
 .button-draw:hover {
-    background-color: var(--color-button-hover);
+  background-color: var(--color-button-hover);
+}
+
+/* Resultado do sorteio */
+.result-list {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
 }
