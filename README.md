@@ -8,6 +8,7 @@
 
 
 
+
 Neste desafio, desenvolvi uma aplicação que permite aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
 O usuário deverá adicionar nomes por meio de um campo de texto e de um botão "Adicionar".
@@ -90,6 +91,7 @@ https://unique-onion-409.notion.site/Ol-meu-nome-Larissa-dos-Santos-1ffae8705fee
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=052D6E&height=120&section=footer" alt="Capa animada inferior" width="1000" />
 </p>
+
 
 
 
