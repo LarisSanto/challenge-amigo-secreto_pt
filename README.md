@@ -1,7 +1,8 @@
 <!-- Capa animada superior -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=052D6E&height=120&section=header" alt="Capa animada superior" width="1000" />
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2F2F2F&height=120&section=header" alt="Capa animada superior" width="1000" />
+</p> 
+
 
 
 ## Curso Praticando Logica de programação: Challenge amigo secreto / Alura + ONE
@@ -83,13 +84,11 @@ https://unique-onion-409.notion.site/Ol-meu-nome-Larissa-dos-Santos-1ffae8705fee
 
 ---
 
-<p align="center">Feito com 💙 por Larissa dos Santos Silva</p>
-
-
+<p align="center">Feito com 🖤 por Larissa dos Santos Silva</p>
 
 <!-- Capa animada inferior -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=052D6E&height=120&section=footer" alt="Capa animada inferior" width="1000" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2F2F2F&height=120&section=footer" alt="Capa animada inferior" width="1000" />
 </p>
 
 
