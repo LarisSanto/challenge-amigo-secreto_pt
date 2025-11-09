@@ -5,7 +5,7 @@
 
 
 
-## Curso Praticando Logica de programação: Challenge amigo secreto / Alura + ONE
+## 👾Curso Praticando Logica de programação: Challenge amigo secreto / Alura + ONE
 
 
 
